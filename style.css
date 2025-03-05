@@ -2,9 +2,16 @@
     margin:0px ;
     padding:0px ;
 }
-body html{
 
-}
+ 
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}}
 
 @font-face {
     font-family: calculatorFont;
@@ -53,7 +60,7 @@ body html{
     font-size:15px;
     padding:5px ;
     border-radius:5px ;
-    font-weight:550;
+    font-weight:500;
     background-color: #fefeff;
 }
  #powerOff{
