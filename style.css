@@ -1,0 +1,82 @@
+*{
+    margin:0px ;
+    padding:0px ;
+}
+body html{
+
+}
+
+@font-face {
+    font-family: calculatorFont;
+    src: url('./font.ttf');
+}
+ button{
+    cursor: pointer;
+ }
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.calculator{
+    margin-top:70px ;
+    background-color:#373737d7;
+    height:440px;
+    width:320px ;
+    border-radius:40px ;
+    padding:30px ;
+
+}
+
+.display{
+    width:100% ;
+    height:70px ;
+    background-color:#ced5df;
+    border-radius:10px ;
+    font-size:50px ;
+    text-align: right;
+    font-weight:600 ;
+   
+
+
+}
+.cacl{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+
+}
+.cacl button{
+    font-size:15px;
+    padding:5px ;
+    border-radius:5px ;
+    font-weight:550;
+    background-color: #fefeff;
+}
+ #powerOff{
+    color:rgb(247, 10, 10) ;
+ }    
+ #powerOn{
+    color:rgb(4, 171, 4) ;
+ } 
+
+
+ .calc-first button{
+    font-size:60px ;
+    padding:5px ;
+    background:#fefeff ;
+    height:73px ;
+    width:77px ;
+    margin-top:10px ;
+    border-radius:7px ;
+    font-weight: bold;
+    text-align: center;
+  
+ }
+
+ 
+
+
